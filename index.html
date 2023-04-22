@@ -12,7 +12,7 @@
       </div>
     <script>
    
-       let susui = 2;
+       let susumi = 2;
       if (susumi==2){
         document.getElementById("hajime").style.display ="none";
         }
@@ -30,6 +30,11 @@
       text-align:center;
         }
   </style>
+    <!-- scriptタグでライブラリを読み込み -->
+<script src="https://deno.land/x/embed_pdf@v1.2.0/mod.js" type="module"></script>
+
+<!-- src属性にpdfのファイルパスを指定する -->
+<embed-pdf src="./path/to/file.pdf"></embed-pdf>
     </body>
   </html>
     
